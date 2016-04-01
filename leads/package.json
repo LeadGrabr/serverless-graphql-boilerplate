@@ -1,0 +1,20 @@
+{
+  "name": "",
+  "version": "0.0.1",
+  "description": "Serverless module dependencies",
+  "author": "me",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/"
+  },
+  "keywords": [],
+  "devDependencies": {},
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "graphql": "^0.4.14",
+    "graphql-custom-types": "^0.2.0",
+    "serverless-helpers-js": "~0.0.3"
+  }
+}
