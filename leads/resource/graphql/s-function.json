@@ -24,7 +24,11 @@
         },
         "default": {
           "statusCode": "200",
-          "responseParameters": {},
+          "responseParameters": {
+            "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,Cache-Control'",
+            "method.response.header.Access-Control-Allow-Methods": "'*'",
+            "method.response.header.Access-Control-Allow-Origin": "'*'"
+          },
           "responseModels": {},
           "responseTemplates": {},
           "application/json": ""
