@@ -30,8 +30,33 @@
             "method.response.header.Access-Control-Allow-Origin": "'*'"
           },
           "responseModels": {},
-          "responseTemplates": {},
-          "application/json": ""
+          "responseTemplates": {
+            "application/json": ""
+          }
+        }
+      }
+    },
+    {
+      "path": "resource/graphql",
+      "method": "OPTIONS",
+      "authorizationType": "none",
+      "apiKeyRequired": false,
+      "requestParameters": {},
+      "requestTemplates": {
+        "application/json": "\"statusCode\": 200"
+      },
+      "responses": {
+        "default": {
+          "statusCode": "200",
+          "responseParameters": {
+            "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,Cache-Control'",
+            "method.response.header.Access-Control-Allow-Methods": "'*'",
+            "method.response.header.Access-Control-Allow-Origin": "'*'"
+          },
+          "responseModels": {},
+          "responseTemplates": {
+            "application/json": ""
+          }
         }
       }
     }

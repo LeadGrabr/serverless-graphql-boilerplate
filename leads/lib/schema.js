@@ -44,7 +44,6 @@ const Mutuation = new GraphQLObjectType({
       type: Lead,
       description: "Create lead",
       args: {
-        id: {type: new GraphQLNonNull(GraphQLString)},
         name: {type: new GraphQLNonNull(GraphQLString)},
         email: {type: new GraphQLNonNull(GraphQLString)},
         phone: {type: new GraphQLNonNull(GraphQLString)}
